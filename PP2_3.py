@@ -2,7 +2,7 @@
     Lesson:  Else If
     Author: Wesley Giese
     Date Created: October 16, 2024
-    Date Last Modified: December 2, 2024
+    Date Last Modified: December 3, 2024
 '''
 
 
@@ -43,7 +43,7 @@ def q3():
     print("Isosceles")
   elif word2 + word3 < word4 or word2 + word4 < word3 + word4 < word2 or word3 + word4 < word2:
     print("No Triangle")  
-    
+
   elif word2 != word3 and word4 or word3 != word4 and word2 or word4 != word2 and word3:
     print("Scalene")
 
